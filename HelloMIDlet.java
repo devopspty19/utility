@@ -1,5 +1,7 @@
-//java
-// Ejemplo J2ME MIDlet básico
+/*
+  java
+  Ejemplo J2ME MIDlet básico
+*/
 public class HelloMIDlet extends MIDlet {
     public void startApp() {
         Display display = Display.getDisplay(this);
