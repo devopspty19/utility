@@ -1,0 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+const guardarDato = async () => {
+  await AsyncStorage.setItem('usuario', 'Juan');
+};
+
+const leerDato = async () => {
+  const valor = await AsyncStorage.getItem('usuario');
+  console.log(valor); // 'Juan'
+};
